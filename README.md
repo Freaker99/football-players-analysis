@@ -1,4 +1,4 @@
-**Correlation analysis of football players**.
+**Correlation analysis of football players**
 
 For the purpose of the project, data on the statistics of football players in the 2017/18 season downloaded from the Kaggle platform was analyzed. The database was modified, and then several parameters of the analyzed players were selected. A statistically based analysis was carried out, and the normality of the parameter distributions and the correlation between them were examined. A model was then created and trained on the aforementioned database.
 
