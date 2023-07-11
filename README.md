@@ -8,5 +8,5 @@ It turns out that the classifier had trouble dividing the data according to cert
 
 The studied sample relationship of position on the field with the number of fouls did not show clear analogies and correlations.
 
-Source:
+Source:\
 https://www.kaggle.com/datasets/kriegsmaschine/soccer-players-values-and-their-statistics?fbclid=IwAR2JiBG5gZbEpoM3FmYfmIgI0uWuyjouXgnKjJ5e4nGfdem2hij6P1krnCU
