@@ -1,12 +1,24 @@
-**Correlation analysis of football players**
+# Correlation Analysis of Football Players
 
-For the purpose of the project, data on the statistics of football players in the 2017/18 season downloaded from the Kaggle platform was analyzed. The database was modified, and then several parameters of the analyzed players were selected. A statistically based analysis was carried out, and the normality of the parameter distributions and the correlation between them were examined. A model was then created and trained on the aforementioned database.
+## Overview
 
-A model was obtained that was able to distinguish and correctly classify one of the three basic positions on the field (defender, midfielder, striker) with an accuracy of 46%. Various combinations of model parameters were tested to obtain the highest possible accuracy. A confusion matrix was performed, which shows that the model did the best job of correctly classifying defenders.
+This project involves a comprehensive analysis of football player statistics from the 2017/18 season, obtained from the Kaggle platform. The dataset underwent necessary modifications, and specific player parameters were selected for analysis. This study involved a statistical analysis of the data, examining the normality of parameter distributions and assessing correlations among them. Subsequently, a machine learning model was created and trained using this database.
 
-It turns out that the classifier had trouble dividing the data according to certain rules. The most related classes were "midfielder" and "striker," which the classifier had the most trouble with. In addition, a sizable number of midfielders were classified as defenders.
+## Model Development
 
-The studied sample relationship of position on the field with the number of fouls did not show clear analogies and correlations.
+A machine learning model was developed with the ability to classify football players into one of three fundamental positions on the field: defender, midfielder, or striker. The model achieved an accuracy rate of 46%. Various combinations of model parameters were tested to enhance its accuracy. A confusion matrix was generated to evaluate the model's performance, revealing that the model excelled in correctly classifying defenders.
 
-Source:\
-https://www.kaggle.com/datasets/kriegsmaschine/soccer-players-values-and-their-statistics?fbclid=IwAR2JiBG5gZbEpoM3FmYfmIgI0uWuyjouXgnKjJ5e4nGfdem2hij6P1krnCU
+## Classification Challenges
+
+Despite the model's success, certain challenges were encountered. The classifier had difficulty in precisely dividing the data according to specific rules. Notably, the most challenging classification occurred between "midfielders" and "strikers," often leading to misclassifications. Additionally, a substantial number of midfielders were erroneously classified as defenders.
+
+## Exploration of Position and Fouls
+
+The analysis also explored the relationship between player positions and the number of fouls committed. However, the findings did not demonstrate clear analogies or correlations between the two variables.
+
+## Data Source
+
+For the analysis, data was sourced from the Kaggle dataset titled "Soccer Players' Values and Their Statistics" available at the following link:
+<br>[Kaggle Dataset](https://www.kaggle.com/datasets/kriegsmaschine/soccer-players-values-and-their-statistics?fbclid=IwAR2JiBG5gZbEpoM3FmYfmIgI0uWuyjouXgnKjJ5e4nGfdem2hij6P1krnCU)
+
+Thank you for your interest in my football player statistics analysis project!
